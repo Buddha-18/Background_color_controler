@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    gap:50px;
+}
+h1{
+    border:2px solid black;
+    padding: 20px;
+    color: black;
+}
+button{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+    opacity:0.7;
+}
+.start-stop{
+    display: flex;
+    gap:25px;
+}
+#start{
+    background-color: green;
+    color: white;
+}
+#stop{
+    background-color: red;
+    color: white;
+}
+
